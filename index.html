@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset="utf-8">
+</head>
+
+<head>
+      <link rel="stylesheet" type="text/css" href="doc.css">
+
+      <title>You-Earth</title>
+</head>
+
+<body>
+      <h1 id="Title">You-Earth</h1>
+      <h2 class="Subtitle">Creating a <br>better world<br></h2>
+      <h2 class="Subtitle1">With You</h2>
+      <nav>
+      <!--- <ul>
+                  <li><a href="h" class="Home">Home</a></li>
+                  <li><a href="g" class ="About">About</a></li>
+                  <li><a href="g" class="Contact">Contact</a></li>
+            </ul>
+      -->
+      <span class ="Get_Started_button">
+      <a class="BlueWater" href="#GetStarted">
+            <span>Get Started</span>
+            <div class="liqiud"></div>
+      </a>
+      </span>
+      <span class="Learn_more_button">
+            <a class="GreenWater" href="h">
+                  <span>Learn More</span>
+                  <div class="wobble"></div>
+            </a>
+      </span>
+      
+      
+      
+      <nav class="navbar">
+            <button class="toggle-sidebar" onclick="toggleSidebar()">&#9776;</button>
+            <div class="sidebar collapsed">
+                <ul>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Flood.AI</a></li>
+                    <li><a href="#">Earthquake Relief AI</a></li>
+                    <li><a href="#">MRI.AI</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+      <script>
+            function toggleSidebar() {
+            const sidebar = document.querySelector(".sidebar");
+            const sidebarLinks = sidebar.querySelectorAll("a");
+            sidebar.classList.toggle("collapsed");
+            if (sidebar.classList.contains("collapsed")) {
+            sidebarLinks.forEach(link => link.classList.add("hidden"));
+            } else {
+            sidebarLinks.forEach(link => link.classList.remove("hidden"));
+            }
+            }
+      </script>
+      <body style="background-color: black;">
+      <div class="bg-animation">
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
+                <div id="stars4"></div>
+      </div>
+      <section id="about">
+            <div class="container">
+              <h2>About Us</h2>
+              <p>Welcome to our website! We are a group of student developers who have come together to use our skills and knowledge to make a positive impact on the world. Our mission is to use AI technology to address some of the most pressing issues facing our planet today, from climate change to natural disasters and more.</p>
+              <p>Our work is not just about technology - it's about people. At You-Earth, collaboration and community are essential to achieving lasting change. That's why we are constantly searching for and collaborating with developers around the world to create meaningful solutions that can make a real difference in people's lives.
+                  Thank you for visiting our website, and we invite you to join us on this journey toward a brighter, more sustainable future.</p>
+            </div>
+      </section>
+      
+
+
+            
+        
+      </body>
+
+</body>
+
+</html>
